@@ -19,7 +19,7 @@ The contents of this page are located in `core/prefixes.less`.
 ##Border
 
 Property mixin			| Default value			| Description
--|-|-
+--- | --- | ---
 `.border-image`			| *none*				| [Border image at W3Schools](http://www.w3schools.com/cssref/css3_pr_border-image.asp)
 `.border-radius`		| `6px`					| [Border radius at W3Schools](http://www.w3schools.com/cssref/css3_pr_border-radius.asp)
 `.outline-radius`		| `6px`					| [Outline radius at CSS3 info](http://www.css3.info/preview/outline/)
