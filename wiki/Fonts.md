@@ -13,7 +13,7 @@ The contents of this page are located in `frontsize/app.less` and `frontsize/the
 Global font sizes for `h1-h6` heading HTML elements.
 
 Variable name       | Default value     | Description
--|-:|-
+--- | ---: | ---
 `@h1`               | `2em`             | Sets the `font-size` for `h1` *HTML* elements
 `@h2`               | `1.75em`          | Sets the `font-size` for `h2` *HTML* elements
 `@h3`               | `1.5em`           | Sets the `font-size` for `h3` *HTML* elements
@@ -26,7 +26,7 @@ Variable name       | Default value     | Description
 Global variables for fonts families you can use around your framework environment.
 
 Variable name       | Default value                                         | Description
--|-|-
+--- | --- | ---
 `@font-sans`        | `'helvetica neue', helvetica, arial, sans-serif`      | A global var which can be used around your workflow
 `@font-serif`       | `georgia, 'times new roman', times, serif`            | A global var which can be used around your workflow
 `@font-monospace`   | `menlo, monaco, 'courier new', monospace`             | A global var which can be used around your workflow
@@ -44,7 +44,7 @@ Sets a *CSS* `font-size` property on *HTML* `body` element for every viewport, t
 To let the mixin works at it's best, it's a good practice to use `@vertical-padding`, @horizontal-padding` and `@global-padding` with `em` units, this keep tha padding with proportional size relative to the current `font-size`.
 
 Parameter                       | Default value                     | Description
--|-|-
+--- | --- | ---
 `@hdFullFontSize`               | `(@font-size + (@font-size / 2))` | The default value will set the `font-size` for **Full HD** viewport with  `@font-size` increased by it's half value
 `@hdReadyFontSize`              | `(@font-size + (@font-size / 4))` | The default value will set the `font-size` for **HD Ready** viewport with  `@font-size` increased by it's quarter value
 `@tabletLandscapeFontSize`      | `@font-size`                      | Sets the **Tablet Landscape** viewport `font-size`
@@ -79,7 +79,7 @@ Parameter                       | Default value                     | Descriptio
 Sets a *CSS* `font-size` property on *HTML* `h1-h6` elements for every viewport, this mixin should be used once in **app.less** file.
 
 Parameter                       | Default value     | Description
--|-:|-
+--- | ---: | ---
 `@hdFullFontSize`               | `1.5em`           | Sets the **Full HD** viewport `font-size`
 `@hdReadyFontSize`              | `1.25em`          | Sets the **HD Ready** viewport `font-size`
 `@tabletLandscapeFontSize`      | `1.125em`         | Sets the **Tablet Landscape** viewport `font-size`
@@ -97,7 +97,7 @@ Parameter                       | Default value     | Description
 Creates a single *CSS class* with a `font-family`, `font-size` and `font-smoothing` properties for every viewport, this mixin is recommended to be used only in **app.less** file.
 
 Parameter                   | Default value             | Description
--|-|-
+--- | --- | ---
 `@selector`                 | `with-small-fonts`        | Frontsize will add the `.` dot before the class name for you
 `@fontFamilyHd`             | `@font-small`             | Sets the **HD** viewports `font-family`
 `@fontSizeHd`               | `0.75em`                  | Sets the **HD** viewports `font-size`
@@ -128,7 +128,7 @@ Parameter                   | Default value             | Description
 Creates a single *CSS class* with a `font-family`, `font-size` and `font-smoothing` properties for every viewport, this mixin is recommended to be used only in **app.less** file.
 
 Parameter                       | Default value     | Description
--|-|-
+--- | --- | ---
 `@selector`                     | required          | Frontsize will add the `.` dot before the class name for you
 `@fontFamily`                   | `@font-default`   | The `font-family` property for all viewports
 `@hdFullFontSize`               | `1em`             | Sets the **Full HD** viewport `font-size`
