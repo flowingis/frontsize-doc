@@ -27,7 +27,7 @@ Property mixin			| Default value			| Description
 ##Box
 
 Property mixin			| Default value					| Description
--|-|-
+--- | --- | ---
 `.displayBox`			| No params expected			| [Display box property at W3Schools](http://www.w3schools.com/cssref/css3_pr_box-align.asp)
 `.box-align`			| `stretch`						| [Box align at W3Schools](http://www.w3schools.com/cssref/css3_pr_box-align.asp)
 `.box-direction`		| `normal`						| [Box direction at W3Schools](http://www.w3schools.com/cssref/css3_pr_box-direction.asp)
@@ -96,21 +96,21 @@ This works for all CSS3 mixins.
 ##Filter
 
 Property mixin				| Default value								| Description
--|-|-
+--- | --- | ---
 `.filter`					| *none*									| [Filter at David Walsh website](http://davidwalsh.name/css-filters)
 `.blur`						| `0`										| [CSS3 filters at David Walsh website](http://davidwalsh.name/demo/css-filters.php)
 
 ##Placeholder
 
 Property mixin				| Default value								| Description
--|-|-
+--- | --- | ---
 `.globalPlaceholder`		| `@color:#999999, @focused:#CCCCCC`		| Sets the color of the `input-placeholder` *CSS* property globally
 `.input-placeholder`		| `@color:#999999, @focused:#CCCCCC`		| Sets the color of the `input-placeholder` *CSS* property to a specific selector
 
 ##Text
 
 Property mixin			| Default value											| Description
--|-|-
+--- | --- | ---
 `.globalSelection`		| `@text-color:inherit, @background-color:inherit`		| Sets the color of the `::selection` of all texts and their color with *CSS* pseudo element selector
 `.selection`			| `@color:#999999, @focused:#CCCCCC`					| Sets the color of the `::selection` of a text and it's color with *CSS* pseudo element selector
 `.font-smoothing`		| `antialiased`											| [Font smoothing on Usability Post](http://www.usabilitypost.com/2010/08/26/font-smoothing/)
@@ -130,7 +130,7 @@ Property mixin			| Default value											| Description
 ##2D Transform
 
 Property mixin			| Default value							| Description
--|-|-
+--- | --- | ---
 `.transform`			| `none`								| [Transform at W3Schools](http://www.w3schools.com/cssref/css3_pr_transform.asp)
 `.matrix`				| `0,0,0,0,0,0;`						| [Matrix at W3Schools](http://www.w3schools.com/cssref/css3_pr_transform.asp)
 `.matrix3d`				| `0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;`	| [Matrix3d at W3Schools](http://www.w3schools.com/cssref/css3_pr_transform.asp)
@@ -156,14 +156,14 @@ Property mixin			| Default value							| Description
 ##3D Transform
 
 Property mixin						| Default value						| Description
--|-|-
+--- | --- | ---
 `.transform-style`					| `flat`							| [Transaform style at W3Schools](http://www.w3schools.com/cssref/css3_pr_transform-style.asp)
 `.backface-visibility`				| `visible`							| [Backface visibility at W3Schools](http://www.w3schools.com/cssref/css3_pr_backface-visibility.asp)
 
 ##Transition
 
 Property mixin						| Default value						| Description
--|-|-
+--- | --- | ---
 `.transition`						| `0.3s ease-in-out initial`		| [Transition style at W3Schools](http://www.w3schools.com/cssref/css3_pr_transition.asp)
 `.transition-delay`					| `0.5s`							| [Transition delay at W3Schools](http://www.w3schools.com/cssref/css3_pr_transition-delay.asp)
 `.transition-duration`				| `0.5s`							| [Transition duration at W3Schools](http://www.w3schools.com/cssref/css3_pr_transition-duration.asp)
@@ -173,7 +173,7 @@ Property mixin						| Default value						| Description
 ##Interaction
 
 Property mixin						| Default value						| Description
--|-|-
+--- | --- | ---
 `.resize`							| `none`							| [Resize at W3Schools](http://www.w3schools.com/cssref/css3_pr_resize.asp)
 `.appearance`						| `normal`							| [Appearance at W3Schools](http://www.w3schools.com/cssref/css3_pr_appearance.asp)
 `.user-select`						| `auto`							| [User select at CSS-Tricks](http://css-tricks.com/almanac/properties/u/user-select/)
@@ -181,13 +181,13 @@ Property mixin						| Default value						| Description
 ##Image
 
 Property mixin						| Default value						| Description
--|-|-
+--- | --- | ---
 `.image-resolution`					| `1dppx`							| [Image resolution at CSS Portal](http://www.cssportal.com/css-properties/image-resolution.php)
 
 ##Background image
 
 Property mixin						| Default value								| Description
--|-|-
+--- | --- | ---
 `.linear-gradient`					| `@gradient:top, #FFFFFF, #000000;`		| [Gradients at W3Schools](http://www.w3schools.com/css/css3_gradients.asp)
 `.background-origin`				| `padding-box`								| [Background origin at W3Schools](http://www.w3schools.com/cssref/css3_pr_background-origin.asp)
 `.background-clip`					| `border-box`								| [Background clip at W3Schools](http://www.w3schools.com/cssref/css3_pr_background-clip.asp)
@@ -195,11 +195,11 @@ Property mixin						| Default value								| Description
 ##Simple transform
 
 Property mixin				| Default value			| Description
--|-|-
+--- | --- | ---
 `.opacity`					| `1`					| [opacity at W3Schools](http://www.w3schools.com/css/css_image_transparency.asp)
 
 ##Print
 
 Property mixin				| Default value					| Description
--|-|-
+--- | --- | ---
 `.marks`					| `none`						| [Marks at CSS3.com](http://www.css3.com/css-marks/)
