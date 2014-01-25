@@ -57,6 +57,20 @@ Variable name					| Default value	| Description
 `@hd-ready-step`				| `1280px`		| Viewport for HD Ready (1280, 720p)
 `@hd-full-step`					| `1800px`		| Viewport for Full HD (1920, 1080p)
 
+##Media query viewport activation vars
+
+The viewports available steps sizes, this shouldn't be changed if you want to keep the standard sizes.
+
+Variable name					| Default value	| Description
+--- | ---: | ---
+`@use-smartphone-portrait`		| `true`		| Includes viewport support for smartphones portrait (320~380)
+`@use-smartphone-landscape`		| `true`		| Includes viewport support for smartphones landscape (480~568~685)
+`@use-tablet-portrait`			| `true`		| Includes viewport support for tablet portrait (768)
+`@use-tablet-landscape`			| `true`		| Includes viewport support for tablet landscape (1024)
+`@use-hd-ready`					| `true`		| Includes viewport support for HD Ready (1280, 720p)
+`@use-hd-full`					| `true`		| Includes viewport support for Full HD (1920, 1080p)
+`@use-viewport-states`			| `true`		| Includes viewport support for all Media Queries state selectors
+
 #Global mixins
 
 All these mixins should be used once inside `frontsize/app.less`, this will ensure a more optimized filesize to the final CSS file.
