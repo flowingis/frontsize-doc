@@ -82,7 +82,7 @@ Note that this widget is already working, just go to `frontsize/theme/components
 Below you can see a list of already working widgets:
 
 Widget mixin 			| Default params 																																																							| Description
--|-|-
+--- | --- | ---
 `.area-hifi`			| `@hifiColor`:*#3d4041*																																																					| Used as *header translucent area* in [Frontsize website](http://frontsize.com)
 `.button-account`		| `@backgroundColor`:*#C3C3C3*, `@color`:*white*, `@textShadowColor`:*0px -1px 0px rgba(255, 0, 0, 0.3)*																																	| Makes *login buttons* for the various social networks
 `.button-hifi`			| `@hifiColor`:*#3d4041*, `@color`:*#b1b1b1*																																																| Used as *header buttons* in [Frontsize website](http://frontsize.com)

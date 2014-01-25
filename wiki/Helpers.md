@@ -51,7 +51,7 @@ This mixin will result this CSS code:
 ##Background images
 
 Property mixin							| Default value																																																					| Description
--|-|-
+--- | --- | ---
 `.backgroundHdFull`						| `@backgroundImage`:None																																																		| Sets the passed `background-image` *CSS property* from **Full HD viewport**
 `.backgroundHdReady`					| `@backgroundImage`:None																																																		| Sets the passed `background-image` *CSS property* from **HD Ready viewport**
 `.backgroundImage`						| `@backgroundImage`:None, `@path`:*''* or `@rootpath` depending by `@use-rootpath` setting																																		| Sets the `background-image` *CSS property* prepending the `@rootpath` var depending by `@use-rootpath` var
@@ -65,7 +65,7 @@ Property mixin							| Default value																																												
 ##CSS3 Border radius
 
 Property mixin		| Default value			| Description
--|-|-
+--- | --- | ---
 `.roundBottom`		| `@radius`:*6px*		| Sets `border-radius` *CSS property* to `0px 0px @radius @radius`
 `.roundLeft`		| `@radius`:*6px*		| Sets `border-radius` *CSS property* to `0px @radius @radius 0px`
 `.roundRight`		| `@radius`:*6px*		| Sets `border-radius` *CSS property* to `@radius 0px 0px @radius`
@@ -74,28 +74,28 @@ Property mixin		| Default value			| Description
 ##CSS3 Box shadow
 
 Property mixin			| Default value															| Description
--|-|-
+--- | --- | ---
 `.outlineBoxShadow`		| `@outlineOpacity`:*0.2*, `@boxShadow`:*0px 0px 0px transparent*		| Sets a `box-shadow` *CSS property* as outline, you can set the opacity ammouth passed and also an additional shadow to the *HTML element*
 
 ##CSS3 Gradient
 
-Property mixin			| Default value																						| Description
--|-|-
-`.glossGradient`			| `@top`:*rgb(200,200,200)*, `@middle`:*rgb(100,100,100)*, `@bottom`:*rgb(150,150,150)*				| Sets a gloss gradient to the *HTML element*
-`.verticalGradient`			| `@color`:*#cbcbcb*, `@strenght`:*5%*																| Sets a vertical gradient to the *HTML element*, it's based on one single color and the strenght of the lightness and saturation, this mixin uses `saturate`, `lighten` and `darken` from **LESS** internal mixins
-`.verticalGradientColors`	| `@firstColor`:*#000000*, `@lastColor`:*#FFFFFF*													| Sets a vertical gradient to the *HTML element*, it's based on the gradient between two colors
+Property mixin			| Default value													| Description
+--- | --- | ---
+`.glossGradient`			| `@color`:*#0A75Bf*, `@stength`:*10%*, `@borderSize`:*0*	| Sets a gloss gradient to the *HTML element*
+`.verticalGradient`			| `@color`:*#cbcbcb*, `@strenght`:*5%*						| Sets a vertical gradient to the *HTML element*, it's based on one single color and the strenght of the lightness and saturation, this mixin uses `saturate`, `lighten` and `darken` from **LESS** internal mixins
+`.verticalGradientColors`	| `@firstColor`:*#000000*, `@lastColor`:*#FFFFFF*			| Sets a vertical gradient to the *HTML element*, it's based on the gradient between two colors
 
 ##Element behavior
 
 Property mixin			| Default value					| Description
--|-|-
+--- | --- | ---
 `.defaultElement`		| No parameters expected		| Sets the CSS3 `appearance` property to `none` and remove some default style set to the elements, it's usual for forms elements but it's buggy on Firefox, Opera, and obviously Internet Explorer
 `.disableOutline`		| No parameters expected		| Removes the `outline` style from elements
 
 ##Positioning
 
 Property mixin		| Default value									| Description
--|-|-
+--- | --- | ---
 `.hooked`			| `@zIndex`:*100*								| Sets the `position` *CSS property* to `fixed`, `width` to `100%` and other properties, it's useful for nav menu fixed to top or to bottom.
 `.moveBottom`		| `@bottom`:*0px*, `@position`:*relative*		| Sets the `position` *CSS property* to `relative` by default, and can move bottom the *HTML element*
 `.moveLeft`			| `@left`:*0px*, `@position`:*relative*			| Sets the `position` *CSS property* to `relative` by default, and can move left the *HTML element*
@@ -105,7 +105,7 @@ Property mixin		| Default value									| Description
 ##Sizing
 
 Property mixin		| Default value								| Description
--|-|-
+--- | --- | ---
 `.size`				| `@width`:*16px*, `@height`:`@width`, `@scale`:*1*		| Sets the size of an *HTML element* with `width` and `height` *CSS properties*
 
 Note that the `scale` param can be a value between `0`, `1` or more, also decimals like `0.25` are allowed.
@@ -113,7 +113,7 @@ Note that the `scale` param can be a value between `0`, `1` or more, also decima
 ##Sprites
 
 Property mixin				| Default value																						| Description
--|-|-
+--- | --- | ---
 `.sprite`					| `@image`, `@width`, `@height`:`@width`, `@backgroudSize`:*auto*									| Prepares an *HTML element* to contain a background image ready to be used as sprite
 `.spriteCoordinates`		| `@positionX`:*0px*, `@positionY`:*0px*															| Sets the coordinates of a sprite without need to use negative values
 `.spritePosition`			| `@horizontalPosition`:*0*, `@verticalPosition`:*0*, `@width`:*0px*, `@height`:`@width`			| Sets integer position of a sprite by assuming the background image has modular size images inside
@@ -181,7 +181,7 @@ Property mixin				| Default value																						| Description
 ##Tables
 
 Property mixin		| Default value																			| Description
--|-|-
+--- | --- | ---
 `.asTable`			| `@cellPadding`:`@global-padding`, `@verticalAlign`:*middle*, `@tableWidth`:*100%*		| Makes an *HTML elements* structure to behave as `table`
 `.asTableCell`		| `@cellPadding`:`@global-padding`, `@verticalAlign`:*middle*							| Makes an *HTML elements* structure to behave as `table-row`
 `.asTableRow`		| `@cellPadding`:`@global-padding`, `@verticalAlign`:*middle*							| Makes an *HTML element* to behave as `table-cell`
@@ -189,19 +189,19 @@ Property mixin		| Default value																			| Description
 ##Text
 
 Property mixin		| Default value											| Description
--|-|-
+--- | --- | ---
 `.cropText`			| `@overflow`:*ellipsis*, `@whiteSpace`:*nowrap*		| Makes an *HTML element* ready to crop text which overflows outsite it's container
 
 ##Transitions
 
 Property mixin		| Default value											| Description
--|-|-
+--- | --- | ---
 `.ease`				| `@easing`:None										| Expects a **Frontsize** ease function parameter
 
 Available easing animations for `.ease` mixin
 
 Easing 				| Description
--|-
+--- | ---
 `ease-in-back`		| Ease in back
 `ease-in-circ`		| Ease in circular
 `ease-in-cubic`		| Ease in cubic

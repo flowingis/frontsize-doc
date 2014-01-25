@@ -25,7 +25,7 @@ The contents of this page are located in `core/media_queries.less` and `core/ret
 Media queries for selectors active from a specific resolution or higher
 
 Viewport rule					| Description
--|-
+--- | ---
 `@from-smartphone-portrait`		| Basically useless, it's active from **Smartphone portrait** to higher viewports
 `@from-smartphone-landscape`	| Active from **Smartphone landscape** to higher viewports
 `@from-tablet-portrait`			| Active from **Tablet portrait** to higher viewports
@@ -59,7 +59,7 @@ Every of these media queries viewport rules can used inside Frontsize like this:
 Media queries for selectors active from the smaller resolution to a specific one
 
 Viewport rule					| Description
--|-
+--- | ---
 `@till-smartphone-portrait`		| Basically useless, it's active untill **Smartphone portrait** viewport, which is excluded from the rule
 `@till-smartphone-landscape`	| Active untill **Smartphone landscape** viewport, which is excluded from the rule
 `@till-tablet-portrait`			| Active untill **Tablet portrait** viewport, which is excluded from the rule
@@ -94,7 +94,7 @@ Every of these media queries viewport rules can used inside Frontsize like this:
 Media queries for strict resolution range selectors
 
 Viewport rule					| Description
--|-
+--- | ---
 `@only-smartphone-portrait`		| Active only in **Smartphone portrait** viewport
 `@only-smartphone-landscape`	| Active only in **Smartphone landscape** viewport
 `@only-tablet-portrait`			| Active only in **Tablet portrait** viewport
@@ -127,7 +127,7 @@ Every of these media queries viewport rules can used inside Frontsize like this:
 ##Retina viewport
 
 Viewport rule							| Description
--|-
+--- | ---
 `@retina-from-smartphone-portrait`		| Basically useless, it's active from **Smartphone portrait** to higher viewports if pixel ratio is 2
 `@retina-from-smartphone-landscape`		| Active from **Smartphone landscape** to higher viewports if pixel ratio is 2
 `@retina-from-tablet-portrait`			| Active from **Tablet portrait** to higher viewports if pixel ratio is 2
@@ -160,7 +160,7 @@ Every of these media queries viewport rules can used inside Frontsize like this:
 ##Pixel density rules
 
 Viewport rule			| Description
--|-
+--- | ---
 `@display-retina`						| Active from **every** viewport if pixel ratio is 2, not recommended
 `@display-retina-browser-compatible`	| Active from **every** viewport if pixel ratio is 2, recommended
 `@display-standard`						| Active from **every** viewport if pixel ratio is not 2
@@ -200,7 +200,7 @@ The contents of this page are located in `core/state.less`.
 ##Text
 
 Selector name								| Description
--|-
+--- | ---
 `.text-left-from-hd-full`					| Sets `text-align` *CSS* property to `left` from **Full HD** viewport
 `.text-left-from-hd-ready`					| Sets `text-align` *CSS* property to `left` from **HD Ready** viewport
 `.text-left-from-tablet-landscape`			| Sets `text-align` *CSS* property to `left` from **Tablet landscape** viewport
@@ -239,7 +239,7 @@ Selector name								| Description
 ##Sizing
 
 Selector name						| Description
--|-
+--- | ---
 `.fill-till-hd-full`					| Sets the `width` *CSS* property to `100%` until **Full HD** viewport excluded
 `.almost-till-hd-full`					| Sets the `width` *CSS* property to `75%` until **Full HD** viewport excluded
 `.half-till-hd-full`					| Sets the `width` *CSS* property to `50%` until **Full HD** viewport excluded
@@ -265,7 +265,7 @@ Selector name						| Description
 ##Visibility
 
 Selector name						| Description
--|-
+--- | ---
 `.block-till-hd-full`				| Sets the `display` *CSS* property to `block` until **Full HD** viewport excluded
 `.block-till-hd-ready`				| Sets the `display` *CSS* property to `block` until **HD Ready** viewport excluded
 `.block-till-tablet-landscape`		| Sets the `display` *CSS* property to `block` until **Tablet landscape** viewport excluded
@@ -305,7 +305,7 @@ Selector name						| Description
 ##Positioning
 
 Selector name						| Description
--|-
+--- | ---
 `.not-hooked-till-tablet-landscape`		| Sets the `position` *CSS* property to `static` until **Tablet landscape** viewport excluded
 `.not-hooked-till-tablet-portrait`		| Sets the `position` *CSS* property to `static` until **Tablet portrait** viewport excluded
 `.to-center-till-hd-full`				| margin: auto
@@ -346,7 +346,7 @@ Selector name						| Description
 ##Retina
 
 Selector name		| Description
--|-
+--- | ---
 `.not-retina-only`	| Sets the `display` *CSS* property to `none` if the screen resolution supports `1dppx` density
 `.retina-only`		| Sets the `display` *CSS* property to `none` if the screen resolution supports `2dppx` density
 
@@ -451,7 +451,7 @@ While you set `@use-rootpath` to `false` the mixin `.backgroundResponsive` will 
 ```
 
 Selector name						| Description
--|-
+--- | ---
 `.backgroundHdFull`					| Sets the **URL** for the `background-image` *CSS* property for **Full HD** viewport.
 `.backgroundHdReady`				| Sets the **URL** for the `background-image` *CSS* property for **HD Ready** viewport.
 `.backgroundTabletLandscape`		| Sets the **URL** for the `background-image` *CSS* property for **Tablet Landscape** viewport.

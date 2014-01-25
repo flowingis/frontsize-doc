@@ -32,7 +32,7 @@ Below, a list of mixins useful to manage retina background images and optimize y
 It displays e default density image on standard displays and a retina image on retina displays
 
 Parameter value					| Default value					| Description
--|-|-
+--- | --- | ---
 `@defaultImage`					| None							| A standard resolution image
 `@retinaImage`					| `@defaultImage`				| A retina resolution image, it shoud be **2x larger** than the `@defaultImage`
 `@backgroundSize`				| `auto`						| Sets the `background-size` CSS property
@@ -73,7 +73,7 @@ Remember to set the `@backgroundSize` property with the 1x image sizes, this is 
 Sets a background image from **Full HD viewport** with **Retina support**.
 
 Parameter value				| Default value													| Description
--|-|-
+--- | --- | ---
 `@defaultHdFullImage`		| None															| A standard resolution image
 `@retinaHdFullImage`		| `@defaultHdFullImage`											| A retina resolution image, it shoud be **2x larger** than the `@defaultHdFullImage`
 `@rootPath`					| `''` or `@rootpath` (if `@use-rootpath` is set to `true`)		| Can override the `@rootpath` if `@use-rootpath` is set to `true`
@@ -119,7 +119,7 @@ If you set `@use-rootpath` to `true` and define your theme path with `@rootpath`
 Sets a background image from **HD Ready viewport** with **Retina support**.
 
 Parameter value					| Default value												| Description
--|-|-
+--- | --- | ---
 `@defaultHdReadyRetinaImage`	| None														| A standard resolution image
 `@retinaHdReadyRetinaImage`		| `@defaultHdReadyRetinaImage`								| A retina resolution image, it shoud be **2x larger** than the `@defaultHdReadyRetinaImage`
 `@rootPath`						| `''` or `@rootpath` (if `@use-rootpath` is set to `true`)	| Can override the `@rootpath` if `@use-rootpath` is set to `true`
@@ -166,7 +166,7 @@ While you set `@use-rootpath` to `true` and define your theme path with `@rootpa
 Sets a background image from **Tablet Landscape viewport** with **Retina support**.
 
 Parameter value						| Default value												| Description
--|-|-
+--- | --- | ---
 `@defaultTabletLandscapeBackground`	| None														| A standard resolution image
 `@retinaTabletLandscapeBackground`	| `@defaultTabletLandscapeBackground`						| A retina resolution image, it shoud be **2x larger** than the `@defaultTabletLandscapeBackground`
 `@rootPath`							| `''` or `@rootpath` (if `@use-rootpath` is set to `true`)	| Can override the `@rootpath` if `@use-rootpath` is set to `true`
@@ -211,7 +211,7 @@ While you set `@use-rootpath` to `false` every `.backgroundRetina...` will call 
 Sets a background image from **Tablet Portrait viewport** with **Retina support**.
 
 Parameter value					| Default value						| Description
--|-|-
+--- | --- | ---
 `@defaultTabletPortraitBackground`	| None														| A standard resolution image
 `@retinaTabletPortraitBackground`	| `@defaultTabletPortraitBackground`							| A retina resolution image, it shoud be **2x larger** than the `@defaultTabletPortraitBackground`
 `@rootPath`							| `''` or `@rootpath` (if `@use-rootpath` is set to `true`)	| Can override the `@rootpath` if `@use-rootpath` is set to `true`
@@ -257,7 +257,7 @@ While you set `@use-rootpath` to `false` every `.backgroundRetina...` can overri
 Sets a background image from **Smartphone Landscape viewport** with **Retina support**.
 
 Parameter value							| Default value													| Description
--|-|-
+--- | --- | ---
 `@defaultSmartphoneLandscapeBackground`	| None															| A standard resolution image
 `@retinaSmartphoneLandscapeBackground`	| `@defaultSmartphoneLandscapeBackground`						| A retina resolution image, it shoud be **2x larger** than the `@defaultSmartphoneLandscapeBackground`
 `@rootPath`								| `''` or `@rootpath` (if `@use-rootpath` is set to `true`)		| Can override the `@rootpath` if `@use-rootpath` is set to `true`
@@ -304,7 +304,7 @@ While you set `@use-rootpath` to `true` and define your theme path with `@rootpa
 Sets a background image from **Smartphone Portrait viewport** with **Retina support**.
 
 Parameter value					| Default value						| Description
--|-|-
+--- | --- | ---
 `@defaultSmartphonePortraitBackground`	| None															| A standard resolution image
 `@retinaSmartphonePortraitBackground`	| `@defaultSmartphonePortraitBackground`						| A retina resolution image, it shoud be **2x larger** than the `@defaultSmartphonePortraitBackground`
 `@rootPath`								| `''` or `@rootpath` (if `@use-rootpath` is set to `true`)		| Can override the `@rootpath` if `@use-rootpath` is set to `true`
@@ -349,7 +349,7 @@ While you set `@use-rootpath` to `false` every `.backgroundRetina...` can reach 
 Sets a different background image for every viewport with **Retina support**.
 
 Parameter value								| Default value													| Description
--|-|-
+--- | --- | ---
 `@defaultHdFullBackground`					| None															| Standard resolution `background-image` *CSS property* for the **Full HD** *HTML element*
 `@retinaHdFullBackground`					| `@defaultHdFullBackground`									| Retina resolution `background-image` *CSS property* for the **Full HD** *HTML element*
 `@defaultHdReadyRetinaBackground`			| `@defaultHdFullBackground`									| Standard resolution `background-image` *CSS property* for the **HD Ready** *HTML element*
@@ -477,7 +477,7 @@ Everything wrote for the previous mixins works for this one too.
 Sets an image inside an *HTML element*, can be useful to create background images with retina displays support.
 
 Paramter value			| Default value					| Description
--|-|-
+--- | --- | ---
 `@defaultImage`			| None							| Standard resolution `background-image` *CSS property* for the *HTML element*
 `@retinaImage`			| `@defaultImage`				| Retina resolution `background-image` *CSS property* for the *HTML element*
 `@width`				| `100%`						| Sets the `width` *CSS property* for the *HTML element* 
@@ -516,7 +516,7 @@ Paramter value			| Default value					| Description
 Sets an image inside an *HTML element* with a specific size, can be useful to create icons with retina displays support.
 
 Paramter value			| Default value					| Description
--|-|-
+--- | --- | ---
 `@defaultImage`			| None							| Standard resolution `background-image` *CSS property* for the *HTML element*
 `@retinaImage`			| None							| Retina resolution `background-image` *CSS property* for the *HTML element*
 `@width`				| None							| Sets the `width` *CSS property* for the *HTML element* 
@@ -558,7 +558,7 @@ Paramter value			| Default value					| Description
 Sets a background image as sprite for an *HTML element* with supports **Retina resolution**.
 
 Paramter value				| Default value						| Description
--|-|-
+--- | --- | ---
 `@defaultImage`				| 									| Standard resolution `background-image` *CSS property* for the *HTML element*
 `@retinaImage`				| 									| Retina resolution `background-image` *CSS property* for the *HTML element*
 `@width`					| 									| Sets the `width` *CSS property* for the *HTML element* 

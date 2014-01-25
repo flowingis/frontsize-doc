@@ -20,7 +20,7 @@ The contents of this page are located in `core/state.less`.
 ##Containers
 
 Selector name	| Description
--|-
+--- | ---
 `.almost`		| Sets `width` *CSS property* to `75%`
 `.auto`			| Sets `width` *CSS property* to `auto`
 `.block`		| Sets `display` *CSS property* to `block`
@@ -38,7 +38,7 @@ Selector name	| Description
 ##Images
 
 Selector name	| Description
--|-
+--- | ---
 `.fluid`		| Makes an image responsive, if the container is more wider than the image it will reach it's max width without stretch more
 `.fluid.fill`	| Makes an image responsive, if the container is more wider than the image it will fill the container width by stretching it mantaining it's original proportions
 `.not-fluid`	| Makes an image non-responsive, `width` and `height` *CSS properties* are be set to `auto`
@@ -46,7 +46,7 @@ Selector name	| Description
 ##Interaction
 
 Selector name	| Description
--|-
+--- | ---
 `.pointer`		| Sets `cursor` *CSS property* to `pointer`
 `.selected`		| Sets `cursor` *CSS property* to `default`
 `.faded`		| Sets `opacity` *CSS property* to `@state-faded-opacity` located in `frontsize/app.less`
@@ -57,13 +57,13 @@ Selector name	| Description
 ##Lists
 
 Selector name			| Description
--|-
+--- | ---
 `.no-list-style`		| Sets the `list-style-type` *CSS property* to `none`
 
 ##Miscellaneous
 
 Selector name	| Description
--|-
+--- | ---
 `.commas`		| Append `, ` after every children *HTML element* except the last one.
 `.hookable`		| Sets `transition` *CSS property* to be tweenable for `top`, `right`, `bottom` and `left`
 `.flip`			| Makes an *HTML element* ready to be 3D flipped
@@ -72,7 +72,7 @@ Selector name	| Description
 ##Navigation
 
 Selector name			| Description
--|-
+--- | ---
 `.nav`					| Perpare an `ul` *HTML element* list to be used as navigation menu
 `.nav.inline`			| Sets `ul` *HTML element* list to be used as inline navigation menu
 `.nav.vertical`			| Sets `ul` *HTML element* list to be used as vertical navigation menu
@@ -80,7 +80,7 @@ Selector name			| Description
 ##Positioning
 
 Selector name			| Description
--|-
+--- | ---
 `.gain-margin`			| Sets `margin-left` and `margin-right` *CSS properties* to `-@horizontal-padding` located in `frontsize/app.less`
 `.to-center`			| Sets `margin-left` and `margin-right` *CSS properties* to `auto`
 `.to-left`				| Sets `float` *CSS property* to `left`
@@ -101,7 +101,7 @@ Selector name			| Description
 ##Spacing
 
 Selector name			| Description
--|-
+--- | ---
 `.with-padding`			| Sets `padding` *CSS property* to `@vertical-padding @horizontal-padding` located in `frontsize/app.less`
 `.horizontal-padding`	| Sets `padding-left` and `padding-right` *CSS properties* to `@horizontal-padding` located in `frontsize/app.less`
 `.vertical-padding`		| Sets `padding-top` and `padding-bottom` *CSS properties* to `@vertical-padding` located in `frontsize/app.less`
@@ -115,7 +115,7 @@ Selector name			| Description
 `.no-vertical-padding`	| Sets `padding-top` and `padding-bottom` *CSS properties* to `0`
 
 Selector name			| Description
--|-
+--- | ---
 `.with-margin`			| Sets `margin` *CSS property* to `@vertical-padding @horizontal-padding` located in `frontsize/app.less`
 `.horizontal-margin`	| Sets `margin-left` and `margin-right` *CSS properties* to `@horizontal-padding` located in `frontsize/app.less`
 `.vertical-margin`		| Sets `margin-top` and `margin-bottom` *CSS properties* to `@vertical-padding` located in `frontsize/app.less`
@@ -131,7 +131,7 @@ Selector name			| Description
 ##Tables
 
 Selector name		| Description
--|-
+--- | ---
 `.table`			| Makes the *HTML element* a `table` element, which also set first level children elements as `table-row` and second level elements as `table-cell`, the table `width` will be set to `100%` and `vertical-align` to `middle`
 `.table-top`		| Makes the *HTML element* a `table` element, which also set first level children elements as `table-row` and second level elements as `table-cell`, the table `width` will be set to `100%` and `vertical-align` to `top`
 `.inline-table`		| Makes the *HTML element* a `table` element, which also set first level children elements as `table-row` and second level elements as `table-cell`, the table `width` will be set to `auto` and `vertical-align` to `middle`
@@ -142,7 +142,7 @@ Selector name		| Description
 ##Text
 
 Selector name		| Description
--|-
+--- | ---
 `.bold`				| Sets `font-weight` *CSS property* to `bold`
 `.no-wrap`			| Sets `white-space` *CSS property* to `nowrap`
 `.capitalize`		| Sets `text-transform` *CSS property* to `capitalize`

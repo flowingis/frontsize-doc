@@ -19,7 +19,7 @@ If you'd like to see some direct example, pls visit [Frontsize grids](http://fro
 This mixin creates a container row to let the columns works best with a set of solid default behaviors.
 
 Parameter                     | Default value  | Description
--|-|-
+--- | --- | ---
 `@selector`                   | `row`          | The name of the CSS rule name
 `@hdFullSteps`                | `0`            | The number of columns per row on **Full HD** viewport, if set to `0` the rule will set everything but will not set a default width to the children which will need rules from `addColumnsSet` mixin
 `@hdReadySteps`               | `12`           | The number of columns per row on **HD Ready** viewport
@@ -150,7 +150,7 @@ The next example will show how to create automatic column sizing rules, they can
 This mixin creates a complete set of rules based on three Frontsize media query viewports, starting from smartphone, to tablet and to hd viewports.
 
 Parameter                     | Default value             | Description
--|-|-
+--- | --- | ---
 `@steps`                      | `12`                      | The number of steps the rule set has, if `@steps` is set to 12, the method will create 12 steps `width` in `%`
 `@hdViewportPrefix`           | `hd-`                     | The prefix of the **HD** viewports, if `@steps` is set to 12, the method will create 12 rules per viewport from `hd-1-of-12` to `hd-12-of-12` by default
 `@tabletViewportPrefix`       | `tablet-`                 | The prefix of the **Tablet** viewports, if `@steps` is set to 12, the method will create 12 rules per viewport from `tablet-1-of-12` to `tablet-12-of-12` by default
@@ -203,7 +203,7 @@ Notice that ew are using `"tablet-portrait"` as `@fillFromViewport` params, this
 This mixin creates a complete set of rules with a specific number of steps defined by `@steps` param.
 
 Parameter                     | Default value             | Description
--|-|-
+--- | --- | ---
 `@selector`                   | `col-`                    | The prefix of the column set created
 `@steps`                      | `12`                      | The number of steps the rule set has, if `@steps` is set to 12, the method will create 12 steps `width` in `%`
 `@viewTotalColumns`           | `true`                    | If set to `true`, the mixin will prepend `@columnsSeparator` and the `@steps` at the end of the rules created, if `@steps` is set to 12 you'll get `-of-12`
@@ -272,7 +272,7 @@ The next example generates a set of rules which starts with the prefix you set a
 This mixin set the `width` to `100%` to a rule set until a specific viewport in support of `addColumnSet`.
 
 Parameter                     | Default value             | Description
--|-|-
+--- | --- | ---
 `@selector`                   | `col-`                    | The prefix of the column set created
 `@steps`                      | `12`                      | The number of steps the rule set has, if `@steps` is set to 12, the method will create 12 steps `width` in `%`
 `@fillFromViewport`           | `"smartphone-landscape"`  | The viewport where the rules will go to `width` at `100%`, you can choose from `tablet-landscape`, `tablet-portrait`, `smartphone-landscape` and `smartphone-portrait`
@@ -300,7 +300,7 @@ Parameter                     | Default value             | Description
 This is an internal mixin used by Frontsize inside `addColumnsSet`, it prevents smartphone viewport selectors to not be overridden by other viewport selector rules.
 
 Parameter                     | Default value             | Description
--|-|-
+--- | --- | ---
 `@selector`                   | `col-`                    | The prefix of the column set created
 `@totalSteps`                 | `12`                      | The number of steps the rule set has, if `@steps` is set to 12, the method will create 12 steps `width` in `%`
 `@viewTotalColumns`           | `true`                    | If set to `true`, the mixin will prepend `@columnsSeparator` and the `@steps` at the end of the rules created, if `@steps` is set to 12 you'll get `-of-12`
@@ -346,7 +346,7 @@ Parameter                     | Default value             | Description
 This mixin set a `max-width` to an HTML element depending by the current viewport and move it to the center of the page.
 
 Parameter                     | Default value             | Description
--|-|-
+--- | --- | ---
 `@selector`                   | `use-steps`               | The selector name created
 `@hdFullMargin`               | `500px`                   | Horizontal margin on **Full HD** viewport, it subtracts `@hdFullMargin` from the current viewport `width`.
 `@hdReadyMargin`              | `100px`                   | Horizontal margin on **HD Ready** viewport, it subtracts `@hdReadyMargin` from the current viewport `width`.
