@@ -62,7 +62,7 @@ Variable name					| Default value	| Description
 The viewports available steps sizes, this shouldn't be changed if you want to keep the standard sizes.
 
 Variable name					| Default value	| Description
---- | ---: | ---
+--- | :---: | ---
 `@use-smartphone-portrait`		| `true`		| Includes viewport support for smartphones portrait (320~380)
 `@use-smartphone-landscape`		| `true`		| Includes viewport support for smartphones landscape (480~568~685)
 `@use-tablet-portrait`			| `true`		| Includes viewport support for tablet portrait (768)
@@ -76,12 +76,12 @@ Variable name					| Default value	| Description
 All these mixins should be used once inside `frontsize/app.less`, this will ensure a more optimized filesize to the final CSS file.
 
 Mixin name					| Description
---- | ---: | ---
-`.addColumnsSet`			| This mixin creates a complete set of rules based on three Frontsize media query viewports, starting from smartphone, to tablet and to hd viewports, for more information visit [Grids page](https://github.com/vitto/frontsize-less/wiki/Grids#addColumnsSet)
-`.addContainerRow`			| This mixin creates a container row to let the columns works best with a set of solid default behaviors, for more information visit [Grids page](https://github.com/vitto/frontsize-less/wiki/Grids#addContainerRow)
-`.addFontsRule`				| Creates a single *CSS class* with a `font-family`, `font-size` and `font-smoothing` properties for every viewport, for more information visit [Fonts page](https://github.com/vitto/frontsize-less/wiki/Fonts#addFontsRule)
-`.addViewportsSteps`		| This mixin set a `max-width` to an HTML element depending by the current viewport and move it to the center of the page, for more information visit [Grids page](https://github.com/vitto/frontsize-less/wiki/Grids#addViewportsSteps)
-`.setHeadingFont`			| Sets the Heading fonts scaling, for more information visit [Fonts page](https://github.com/vitto/frontsize-less/wiki/Fonts#setHeadingFont)
-`.setFontScaling`			| Sets a *CSS* `font-size` property on *HTML* `body` element for every viewport, for more information visit [Fonts page](https://github.com/vitto/frontsize-less/wiki/Fonts#setFontScaling)
+--- | ---
+`.addColumnsSet`			| This mixin creates a complete set of rules based on three Frontsize media query viewports, starting from smartphone, to tablet and to hd viewports, for more information visit [Grids page](Grids.md#addColumnsSet)
+`.addContainerRow`			| This mixin creates a container row to let the columns works best with a set of solid default behaviors, for more information visit [Grids page](Grids.md#addContainerRow)
+`.addFontsRule`				| Creates a single *CSS class* with a `font-family`, `font-size` and `font-smoothing` properties for every viewport, for more information visit [Fonts page](Fonts.md#addFontsRule)
+`.addViewportsSteps`		| This mixin set a `max-width` to an HTML element depending by the current viewport and move it to the center of the page, for more information visit [Grids page](Grids.md#addViewportsSteps)
+`.setHeadingFont`			| Sets the Heading fonts scaling, for more information visit [Fonts page](Fonts.md#setHeadingFont)
+`.setFontScaling`			| Sets a *CSS* `font-size` property on *HTML* `body` element for every viewport, for more information visit [Fonts page](Fonts.md#setFontScaling)
 `.useFrontsizeWidgets`		| This are `30kB` more of *CSS* styles from Frontsize default styles, use it only if you need it
 
