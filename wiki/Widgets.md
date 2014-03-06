@@ -15,7 +15,7 @@ Widgets are thought as reusable *HTML* blocks with a defined structure and style
 Now let's create three simple social buttons to login into your website:
 
 ```
-<a class="facebook-account" href="#">Connect with <span>Google+</span></a>
+<a class="facebook-account" href="#">Connect with <span>Facebook</span></a>
 <a class="twitter-account top-margin" href="#">Connect with <strong>Twitter</strong></a>
 <a class="google-account top-margin" href="#">Connect with <span>Google+</span></a>
 <a class="github-account top-margin" href="#">Connect with <strong>GitHub</strong></a>
